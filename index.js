@@ -11,6 +11,6 @@ app.use(express.json())
 app.use(router)
 
 app.listen(8080, () => {
-    console.log("server is running on port 8080")
+    console.log("Welcome to CV Builder backend")
     connectDB()
 })

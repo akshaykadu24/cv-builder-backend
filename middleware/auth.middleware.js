@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 const Authentication = (req, res, next) => {
     let token = req.headers.authorization
-    console.log("yessss", token)
+    console.log("token", token)
     if (token) {
         jwt.verify(token, 'shhhhh', function (err, decoded) {
             console.log(decoded, "kkkk") // bar
