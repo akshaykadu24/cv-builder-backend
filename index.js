@@ -11,6 +11,6 @@ app.use(express.json())
 app.use(router)
 
 app.listen(8080, () => {
-    console.log("Welcome to CV Builder backend")
+    console.log("Welcome to CV Builder backend and running on http://localhost:8080")
     connectDB()
 })

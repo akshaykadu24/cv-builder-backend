@@ -84,6 +84,8 @@ const ResumeSchema = mongoose.Schema({
         bodyFont: String
     }
 
+}, {
+    timestamps: true
 })
 
 const resumeModel = mongoose.model("resume", ResumeSchema)
